@@ -1,0 +1,71 @@
+<html>
+    <head>
+        <script src="https://kit.fontawesome.com/18ed157b09.js" crossorigin="anonymous"></script>
+        <style>
+            .verticle-lines1, .verticle-lines2 , .verticle-lines3{
+                border: 1px solid rgb(25, 25, 189);
+                background-color: rgb(25, 25, 189);
+                width:2px;
+                height: 12px;
+                border-radius: 2px;
+                margin: 1px;
+                animation-iteration-count: infinite;
+                animation-delay: 1s;
+                animation-duration: 10s;  
+            }
+
+            .verticle-lines1{
+                animation-name: eq1;
+            }
+
+            .verticle-lines2{
+                animation-name: eq2;
+            }
+
+            .verticle-lines3{
+                animation-name: eq3;
+            }
+
+            @keyframes eq1{
+                0% {height: 6px;}
+                25% {height: 8px;}
+                50% {height: 12px;}
+                100% {height: 4px;}
+            }
+
+            @keyframes eq2{
+                0% {height: 12px;}
+                25% {height: 6px;}
+                50% {height: 12px;}
+                100% {height: 8px;}
+            }
+
+            @keyframes eq3{
+                0% {height: 8px;}
+                25% {height: 4px;}
+                50% {height: 6px;}
+                100% {height: 12px;}
+            }
+
+            .audioLines{
+                display: flex;
+                align-items: center;
+            }
+        </style>
+    </head>
+    <body>
+        <div class="audioLines">
+            <div class="verticle-lines1"></div>
+            <div class="verticle-lines2"></div>
+            <div class="verticle-lines3"></div>
+        </div>
+        </header>
+
+        <main>
+        </main>
+
+        <footer>
+        </footer>
+
+    </body>
+</html>
